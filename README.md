@@ -1,4 +1,4 @@
-# Math -> Kotlin Cheatsheet
+# Math → Kotlin Cheatsheet
 
 
 ## Summation
