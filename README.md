@@ -13,7 +13,7 @@ This symbol <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\s
 |<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=0}^{n}n^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=0}^{n}n^2" title="\sum_{i=0}^{n}n^2" /></a>|`fun f(n: Int) = (0..n).map { it * it }.sum()`|
 |<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{n=1}^{100}3x^2&space;&plus;&space;2n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{n=1}^{100}3x^2&space;&plus;&space;2n" title="\sum_{n=1}^{100}3x^2 + 2n" /></a>|`fun f(x: Double) = (1..100).map { n -> 3 * Math.pow(x, 2.0) + (2*n) }.sum()`|
 |<a href="https://www.codecogs.com/eqnedit.php?latex=100&space;&plus;&space;3\sum_{i=0}^{n}n^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?10&space;&plus;&space;3\sum_{i=0}^{n}n^2" title="10 + 3\sum_{i=0}^{n}n^2" /></a>|        `fun f(n: Int) = 10 + 3*(0..n).map { it * it }.sum()`|
-|<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{10}&space;\sum_{j=4}^{20}&space;2ij" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{4}&space;\sum_{j=4}^{20}&space;2ij" title="\sum_{i=1}^{10} \sum_{j=4}^{20} 2ij" /></a>|(1..4).flatMap { i -> (4..20).map { j -> 2 *i * j } }.sum()|
+|<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{10}&space;\sum_{j=4}^{20}&space;2ij" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{4}&space;\sum_{j=4}^{20}&space;2ij" title="\sum_{i=1}^{10} \sum_{j=4}^{20} 2ij" /></a>|`(1..4).flatMap { i -> (4..20).map { j -> 2 *i * j } }.sum()`|
 
 ### Nested Summation
 
