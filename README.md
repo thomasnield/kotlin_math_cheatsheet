@@ -26,7 +26,7 @@ For instance, we can define 5 different variables all named <a href="https://www
 
 ```kotlin
 val xValues = listOf(23, 65, 45, 23, 66)
-val xAverage = allXs.sum() / 5 // allXs.average()
+val xAverage = allXs.sum() / 5 
 ```
 
 
