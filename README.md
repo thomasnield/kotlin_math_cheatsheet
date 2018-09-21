@@ -75,9 +75,11 @@ Trying to express subscripted variables like <a href="https://www.codecogs.com/e
 val x1 = 12
 val x_1 = 12
 
-val x_old = 13
 val xOld = 13
+val x_old = 13
 ```
+
+Hopefully you will not run into this decision often, as you may express variables as iterated elements in collections/sequences rather than give each one an explicit variable name. 
 
 
 ## Elements and Sets 
