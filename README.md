@@ -13,7 +13,7 @@ While you are here, please rally this [issue on Dokka](https://github.com/Kotlin
 
 This symbol <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\sum" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\sum" title="\sum" /></a> indicates you are summing a series of items. It is probably one of the most commonly used symbols in math to express iterative addition. 
 
-Similarly, a capital Pi <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\prod" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\prod" title="\prod" /></a> is used to multiply a series of items. 
+Similarly, a <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\prod" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\prod" title="\prod" /></a> is used to multiply a series of items. 
 
 
 |Math Expression|Kotlin Code|
