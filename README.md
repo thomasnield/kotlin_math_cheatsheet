@@ -1,3 +1,6 @@
+
+![](http://i.imgur.com/v3FqiEA.png)
+
 # Math → Kotlin Cheatsheet
 
 This is still very much a work-in-progress and I welcome any contributions. This cheat sheet was inspired by [Jam3's Math as Code project](https://github.com/Jam3/math-as-code). 
