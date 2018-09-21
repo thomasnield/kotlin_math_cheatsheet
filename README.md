@@ -25,8 +25,8 @@ For instance, we can define 5 different variables all named <a href="https://www
 <a href="https://www.codecogs.com/eqnedit.php?latex=x_{average}&space;=&space;\frac{x_1&space;&plus;&space;x_2&space;&plus;&space;x_3&space;&plus;&space;x_4&space;&plus;&space;x_5}{5}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_{average}&space;=&space;\frac{x_1&space;&plus;&space;x_2&space;&plus;&space;x_3&space;&plus;&space;x_4&space;&plus;&space;x_5}{5}" title="x_{average} = \frac{x_1 + x_2 + x_3 + x_4 + x_5}{5}" /></a>. 
 
 ```kotlin
-val allXs = listOf(23,56,12,35,56)
-val average = allXs.sum() / 5 
+val xValues = listOf(23, 65, 45, 23, 66)
+val xAverage = allXs.sum() / 5 
 ```
 
 
