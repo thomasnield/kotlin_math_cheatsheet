@@ -18,11 +18,11 @@ This symbol <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\s
 
 Hopefully the concept of a variable (such as `x`) should be self-explanatory to a programmer. However, in mathematical notation it is common for subscripts to distinctly describe several instances of that variable. 
 
-For instance, we can define 5 different variables all named <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;x" title="x" /></a>, but notate them as <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;x_1,&space;x_2,&space;x_3,&space;x_4,&space;\text{and}&space;x_5" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;x_1,&space;x_2,&space;x_3,&space;x_4,&space;\text{and}&space;x_5" title="x_1, x_2, x_3, x_4, \text{and} x_5" /></a>. 
+For instance, we can define 5 different variables all named <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;x" title="x" /></a>, but notate them as <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;x_1,&space;x_2,&space;x_3,&space;x_4,&space;\text{and}&space;x_5" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;x_1,&space;x_2,&space;x_3,&space;x_4,&space;\text{and}&space;x_5" title="x_1, x_2, x_3, x_4, \text{and} x_5" /></a>. Here is how we can notate an average operation.
 
 **Calculating an Average of 5 Variables**
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=x_{average}&space;=&space;\frac{x_1&space;&plus;&space;x_2&space;&plus;&space;x_3&space;&plus;&space;x_4&space;&plus;&space;x_5}{5}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_{average}&space;=&space;\frac{x_1&space;&plus;&space;x_2&space;&plus;&space;x_3&space;&plus;&space;x_4&space;&plus;&space;x_5}{5}" title="x_{average} = \frac{x_1 + x_2 + x_3 + x_4 + x_5}{5}" /></a>. Here is how we can notate an average operation.
+<a href="https://www.codecogs.com/eqnedit.php?latex=x_{average}&space;=&space;\frac{x_1&space;&plus;&space;x_2&space;&plus;&space;x_3&space;&plus;&space;x_4&space;&plus;&space;x_5}{5}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_{average}&space;=&space;\frac{x_1&space;&plus;&space;x_2&space;&plus;&space;x_3&space;&plus;&space;x_4&space;&plus;&space;x_5}{5}" title="x_{average} = \frac{x_1 + x_2 + x_3 + x_4 + x_5}{5}" /></a>. 
 
 ```kotlin
 val allXs = listOf(23,56,12,35,56)
@@ -33,6 +33,14 @@ val average = allXs.sum() / 5
 ## Elements and Sets 
 
 ## Functions
+
+
+
+|Math Expression|Description|Kotlin Code|
+|---|---|
+|<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;e^x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;e^x" title="e^x" /></a>|Exponent of `e`|`exp(x)`|
+|<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;ln(x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;ln(x)" title="ln(x)" /></a>\|Natural logarithm|`ln(x)`|
+
 
 ## Symbols 
 
