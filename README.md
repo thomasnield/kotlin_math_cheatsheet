@@ -67,6 +67,18 @@ To maximize fanciness, we can go a step further and use a summation operator and
 <a href="https://www.codecogs.com/eqnedit.php?latex=x_{average}&space;=&space;\frac{1}{n}\sum_{i=1}^{n}x_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_{average}&space;=&space;\frac{1}{n}\sum_{i=1}^{n}x_i" title="x_{average} = \frac{1}{n}\sum_{i=1}^{n}x_i" /></a>
 
 
+### Expressing Subscripted Variables in Kotlin 
+
+Trying to express subscripted variables can be a little awkward in Kotlin, and you can choose to stick with conventional camelCase or break style guidelines and use underscores. 
+
+```kotlin
+val x1 = 12
+val x_1 = 12
+
+val x_old = 13
+val xOld = 13
+```
+
 
 ## Elements and Sets 
 
