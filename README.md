@@ -38,8 +38,8 @@ val average = allXs.sum() / 5
 
 |Math Expression|Description|Kotlin Code|
 |---|---|---|
-|<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;e^x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;e^x" title="e^x" /></a>|Exponent of `e`|`exp(x)`|
-|<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;ln(x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;ln(x)" title="ln(x)" /></a>|Natural logarithm|`ln(x)`|
+|<a href="https://www.codecogs.com/eqnedit.php?latex=e^x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?e^x" title="e^x" /></a>|Exponent of `e`|`exp(x)`|
+|<a href="https://www.codecogs.com/eqnedit.php?latex=ln(x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?ln(x)" title="ln(x)" /></a>|Natural logarithm|`ln(x)`|
 
 
 ## Symbols 
