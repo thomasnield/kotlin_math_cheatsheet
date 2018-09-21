@@ -23,6 +23,7 @@ This symbol <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\s
 |<a href="https://www.codecogs.com/eqnedit.php?latex=10&space;&plus;&space;3\sum_{i=0}^{n}i^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?10&space;&plus;&space;3\sum_{i=0}^{n}i^2" title="10 + 3\sum_{i=0}^{n}i^2" /></a>|        `fun f(n: Int) = 10 + 3*(0..n).map { it * it }.sum()`|
 |<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=0}^{n}&space;x_i&space;&plus;&space;i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=0}^{n}&space;x_i&space;&plus;&space;i" title="\sum_{i=0}^{n} x_i + i" /></a>|`fun f(allX: List<Int>) = allX.mapIndexed { i,x -> x + i }.sum()`|
 |<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{10}&space;\sum_{j=4}^{20}&space;2ij" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{4}&space;\sum_{j=4}^{20}&space;2ij" title="\sum_{i=1}^{10} \sum_{j=4}^{20} 2ij" /></a>|`(1..4).flatMap { i -> (4..20).map { j -> 2 *i * j } }.sum()`|
+|<a href="https://www.codecogs.com/eqnedit.php?latex=\prod_{i=1}^{n}&space;i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\prod_{i=1}^{n}&space;i" title="\\prod_{i=1}^{n} i" /></a>|`(1..n).fold(1L, Long::times)`|
 
 ### Nested Summation
 
