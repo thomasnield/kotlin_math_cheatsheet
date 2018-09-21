@@ -2,6 +2,8 @@
 
 This is still very much a work-in-progress and I welcome any contributions. This cheat sheet was inspired by [Jam3's Math to JavaScript](https://github.com/Jam3/math-as-code) one. 
 
+I'm using this [online LaTeX equation editor](https://www.codecogs.com/eqnedit.php) to generate expressions, and if you want to learn MathJax notation [here is a great resource](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
+
 ## Summation
 
 This symbol <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\sum" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\sum" title="\sum" /></a> indicates you are summing a series of items. It is probably one of the most commonly used symbols in math to express iterative addition. 
