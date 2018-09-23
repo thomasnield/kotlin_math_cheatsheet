@@ -100,7 +100,7 @@ fun f(elements: List<Int>) = elements.sum()
 
 However, when you are not working with elements but rather an actual number sequence, you should interpret this literally. When we are iterating numbers 1 through 3, we really are iterating numbers 1 through 3. 
 
-|<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{3}i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{3}i" title="\sum_{i=1}^{3}i" /></a>|`(1..3).sum()`|
+<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{3}i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{3}i" title="\sum_{i=1}^{3}i" /></a>
 
 ```kotlin
 val sum = (1..3).sum()
