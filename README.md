@@ -84,13 +84,28 @@ val x_old = 13
 
 Hopefully you will not run into this decision often, as you may express variables as iterated elements in collections/sequences rather than give each one an explicit variable name. 
 
+## Indexes and Iteration
+
+When approaches with a mathematical expression that has some notion of iteration, you need to consider they may not use 0-based indexing especially in the context of iterating elements. 
+
+For instance, here is an operation that is iterating `n` elements and summing them starting at index 1. 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{n}&space;x_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{n}&space;x_i" title="\sum_{i=1}^{n} x_i" /></a>
+
+Of course, in Kotlin code you should interpret this as iterating all the elements starting at index 0, not skipping the first element and starting at index 1. 
+
+```kotlin 
+fun f(elements: List<Int>) = elements.sum()
+```
+
+But when you are not working with elements but rather an actual number sequence, you should interpret this literally as 
 
 ## Elements and Sets 
-
+.sum
 ## Functions
 
 
-
+ will 
 |Math Expression|Description|Kotlin Code|
 |---|---|---|
 |<a href="https://www.codecogs.com/eqnedit.php?latex=e^x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?e^x" title="e^x" /></a>|Exponent of `e`|`exp(x)`|
