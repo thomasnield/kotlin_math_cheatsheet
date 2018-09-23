@@ -108,7 +108,7 @@ val sum = (1..3).sum()
 In summary, beware of 0-index and 1-index conventions, and discern what the mathematical expression is trying to achieve before translating it into code. 
 
 ## Elements and Sets 
-.sum
+
 ## Functions
 
 
