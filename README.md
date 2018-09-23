@@ -112,7 +112,6 @@ In summary, beware of 0-index and 1-index conventions, and discern what the math
 ## Functions
 
 
- will 
 |Math Expression|Description|Kotlin Code|
 |---|---|---|
 |<a href="https://www.codecogs.com/eqnedit.php?latex=e^x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?e^x" title="e^x" /></a>|Exponent of `e`|`exp(x)`|
