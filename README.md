@@ -84,6 +84,8 @@ val x_old = 13
 
 Hopefully you will not run into this decision often, as you may express variables as iterated elements in collections/sequences rather than give each one an explicit variable name. 
 
+### Conventional Variable Symbols 
+
 ## Indexes and Iteration
 
 When approached with a mathematical expression, you need to consider it may not use 0-based indexing especially in the context of iterating elements. 
@@ -118,7 +120,6 @@ In summary, beware of 0-index and 1-index conventions, and discern what the math
 |<a href="https://www.codecogs.com/eqnedit.php?latex=ln(x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?ln(x)" title="ln(x)" /></a>|Natural logarithm|`ln(x)`|
 
 
-## Symbols 
 
 ## Linear Algebra
 
