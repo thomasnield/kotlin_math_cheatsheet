@@ -84,7 +84,9 @@ val x_old = 13
 
 Hopefully you will not run into this decision often, as you may express variables as iterated elements in collections/sequences rather than give each one an explicit variable name. 
 
-### Conventional Variable Symbols 
+### Standard Variable Symbols 
+
+TODO
 
 ## Indexes and Iteration
 
@@ -111,6 +113,8 @@ In summary, beware of 0-index and 1-index conventions, and discern what the math
 
 ## Elements and Sets 
 
+TODO
+
 ## Functions
 
 
@@ -123,3 +127,4 @@ In summary, beware of 0-index and 1-index conventions, and discern what the math
 
 ## Linear Algebra
 
+TODO
