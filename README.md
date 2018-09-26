@@ -9,7 +9,7 @@ I am using this [online LaTeX equation editor](https://www.codecogs.com/eqnedit.
 
 While you are here, please rally this [issue on Dokka](https://github.com/Kotlin/dokka/issues/245) to bring MathJax support to Kotlin Docs. 
 
-## Summation and Multiplication
+# Summation and Multiplication
 
 This symbol <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\sum" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\sum" title="\sum" /></a> indicates you are summing a series of items. It is probably one of the most commonly used symbols in math to express iterative addition. 
 
@@ -39,7 +39,7 @@ When you see more than one summation, this means they are nested summations. Thi
 
 
 
-## Variables 
+# Variables 
 
 Hopefully the concept of a variable (such as `x`) should be self-explanatory to a programmer. However, in mathematical notation it is common for subscripts to distinctly describe several instances of that variable. For instance, we can use `old` and `new` `x` values to measure a rate of change.
 
@@ -88,7 +88,7 @@ Hopefully you will not run into this decision often, as you may express variable
 
 TODO
 
-## Indexes and Iteration
+# Indexes and Iteration
 
 When approached with a mathematical expression, you need to consider it may not use 0-based indexing especially in the context of iterating elements. 
 
@@ -111,11 +111,11 @@ val sum = (1..3).sum()
 ```
 In summary, beware of 0-index and 1-index conventions, and discern what the mathematical expression is trying to achieve before translating it into code. 
 
-## Elements and Sets 
+# Elements and Sets 
 
 TODO
 
-## Functions
+# Functions
 
 
 |Math Expression|Description|Kotlin Code|
@@ -125,7 +125,7 @@ TODO
 
 
 
-## Linear Algebra
+# Linear Algebra
 
 Linear algebra is the building block of machine learning, computer graphics, linear programming, and many other mathematically-intense computer science disciplines. Linear algebra can seem pointless and useless until you apply it to specific problems. For example, a neural network is typically executed using matrix math, using dot products to multiply and sum weights and node values. 
 
