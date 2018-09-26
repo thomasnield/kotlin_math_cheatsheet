@@ -127,4 +127,18 @@ TODO
 
 ## Linear Algebra
 
+Linear algebra is the building block of machine learning, computer graphics, linear programming, and many other mathematically-intense computer science disciplines. Linear algebra can seem pointless and useless until you apply it to specific problems. For example, a neural network is typically executed using matrix math, using dot products to multiply and sum weights and node values. 
+
+> If you want to learn more, [3Blue1Brown](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) has a great video series on linear algebra on YouTube. 
+
+### Vectors
+
+TODO
+
+### Matrices
+
+TODO
+
+### Matrix Operators
+
 TODO
