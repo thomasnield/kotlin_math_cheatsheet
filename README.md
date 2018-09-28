@@ -64,6 +64,11 @@ However, when you are not working with elements but rather an actual number sequ
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{3}i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{3}i" title="\sum_{i=1}^{3}i" /></a>
 
+```kotlin
+val sum = (1..3).sum()
+```
+In summary, beware of 0-index and 1-index conventions, and discern what the mathematical expression is trying to achieve before translating it into code. 
+
 
 # Variables 
 
@@ -114,10 +119,6 @@ Hopefully you will not run into this decision often, as you may express variable
 
 TODO
 
-```kotlin
-val sum = (1..3).sum()
-```
-In summary, beware of 0-index and 1-index conventions, and discern what the mathematical expression is trying to achieve before translating it into code. 
 
 # Elements and Sets 
 
