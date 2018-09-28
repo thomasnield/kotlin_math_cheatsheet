@@ -46,6 +46,24 @@ When you see more than one summation, this means they are nested summations. Thi
 ```
 
 
+### Indexes and Iteration
+
+When approached with a mathematical expression, you need to consider it may not use 0-based indexing especially in the context of iterating elements. 
+
+For instance, here is an operation that is iterating `n` elements and summing. The iteration starts at index 1.
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{n}&space;x_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{n}&space;x_i" title="\sum_{i=1}^{n} x_i" /></a>
+
+When translating this to code, you should interpret this as iterating all the elements starting at index 0. It does not skip the first element or start at index 1. 
+
+```kotlin 
+fun f(elements: List<Int>) = elements.sum()
+```
+
+However, when you are not working with elements but rather an actual number sequence, you should interpret this literally. When we are iterating numbers 1 through 3, we really are iterating numbers 1 through 3. 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{3}i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{3}i" title="\sum_{i=1}^{3}i" /></a>
+
 
 # Variables 
 
@@ -95,24 +113,6 @@ Hopefully you will not run into this decision often, as you may express variable
 ### Standard Variable Symbols 
 
 TODO
-
-# Indexes and Iteration
-
-When approached with a mathematical expression, you need to consider it may not use 0-based indexing especially in the context of iterating elements. 
-
-For instance, here is an operation that is iterating `n` elements and summing. The iteration starts at index 1.
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{n}&space;x_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{n}&space;x_i" title="\sum_{i=1}^{n} x_i" /></a>
-
-When translating this to code, you should interpret this as iterating all the elements starting at index 0. It does not skip the first element or start at index 1. 
-
-```kotlin 
-fun f(elements: List<Int>) = elements.sum()
-```
-
-However, when you are not working with elements but rather an actual number sequence, you should interpret this literally. When we are iterating numbers 1 through 3, we really are iterating numbers 1 through 3. 
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{3}i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{3}i" title="\sum_{i=1}^{3}i" /></a>
 
 ```kotlin
 val sum = (1..3).sum()
