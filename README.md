@@ -101,7 +101,20 @@ To maximize fanciness, we can go a step further and use a summation operator and
 <a href="https://www.codecogs.com/eqnedit.php?latex=x_{average}&space;=&space;\frac{1}{n}\sum_{i=1}^{n}x_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_{average}&space;=&space;\frac{1}{n}\sum_{i=1}^{n}x_i" title="x_{average} = \frac{1}{n}\sum_{i=1}^{n}x_i" /></a>
 
 
-### Naming Subscripted Variables in Kotlin 
+### Special Variable Symbols 
+
+#### Greek Letters
+
+The Greek alphabet can be used as variable names as well, and there is little consistency on how they are used and for what. For instance, 
+
+
+#### <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\theta" title="\theta" /></a> Theta 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\theta" title="\theta" /></a> (called "Theta") is sometimes for constants, special variables, or [polar angles](https://en.wikipedia.org/wiki/Spherical_coordinate_system). 
+
+A place you will definitely see theta used is in trigonometric equations like <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;cos(\theta)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;cos(\theta)" title="cos(\theta)" /></a>, <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;sin(\theta)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;sin(\theta)" title="sin(\theta)" /></a>, and <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;tan(\theta)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;tan(\theta)" title="tan(\theta)" /></a>. 
+
+### Naming Variables in Kotlin 
 
 Trying to express subscripted variables like <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;x_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;x_1" title="x_1" /></a> and <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;x_{old}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;x_{old}" title="x_{old}" /></a> can be a little awkward in code. In Kotlin, you can choose to stick with conventional camelCase or break style guidelines by using underscores. 
 
@@ -114,10 +127,6 @@ val x_old = 13
 ```
 
 Hopefully you will not run into this decision often, as you may express variables as iterated elements in collections/sequences rather than give each one an explicit variable name. 
-
-### Standard Variable Symbols 
-
-TODO
 
 
 # Elements and Sets 
