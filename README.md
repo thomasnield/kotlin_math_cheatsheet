@@ -125,7 +125,7 @@ val x_1 = 12
 val xOld = 13
 val x_old = 13
 ```
-For mathematical symbols like theta <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\theta" title="\theta" /></a>, you can try nami g your variable `theta`. 
+For mathematical symbols like theta <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\theta" title="\theta" /></a>, you can just name your variable `theta`. 
 
 ```kotlin 
 import kotlin.math.PI
