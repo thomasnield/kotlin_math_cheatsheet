@@ -140,7 +140,7 @@ Linear algebra is the building block of machine learning, computer graphics, lin
 
 Linear algebra takes the tediousness out of working with large multidimensional arrays of numbers. While you can certainly iterate these numbers yourself and perform whatever calculation you need, it can become extremely inefficient and tedious to do yourself. 
 
-There are great libraries that can do this for you. In the Python world you would use [NumPy](http://www.numpy.org/) or [PyTorch](https://pytorch.org/). In the JVM world, you can use [ND4J](http://nd4j.org/), [ojAlgo](https://github.com/optimatika/ojAlgo), or [JBlas](http://jblas.org/). The Kotlin multiplatform library [Koma](https://github.com/kyonifer/koma) will probably be your go-to if you intend on doing linear algebra in Kotlin. 
+There are great libraries that can do this for you. In the Python world you would typically use [NumPy](http://www.numpy.org/). In the JVM world, you can use [ND4J](http://nd4j.org/), [ojAlgo](https://github.com/optimatika/ojAlgo), or [JBlas](http://jblas.org/). The Kotlin multiplatform library [Koma](https://github.com/kyonifer/koma) will probably be your go-to if you intend on doing linear algebra in Kotlin. 
 
 > If you want to learn more, [3Blue1Brown](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) has a great video series on linear algebra on YouTube. 
 
