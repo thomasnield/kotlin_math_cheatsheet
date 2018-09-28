@@ -101,18 +101,38 @@ To maximize fanciness, we can go a step further and use a summation operator and
 <a href="https://www.codecogs.com/eqnedit.php?latex=x_{average}&space;=&space;\frac{1}{n}\sum_{i=1}^{n}x_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_{average}&space;=&space;\frac{1}{n}\sum_{i=1}^{n}x_i" title="x_{average} = \frac{1}{n}\sum_{i=1}^{n}x_i" /></a>
 
 
-### Special Variable Symbols 
 
 #### Greek Letters
 
-The Greek alphabet can be used as variable names as well, and there is little consistency on how they are used and for what. For instance, 
+The Greek alphabet can be used as variable names as well, and there is little consistency on how they are used and for what. However, there are some common usages for certains symbols as documented in this table. 
 
+| Letter | Name    | Common Usage |
+|--------|---------|--------------|
+| Α α    | Alpha   |              |
+| Β β    | Beta    |              |
+| Γ γ    | Gamma   |              |
+| Δ δ    | Delta   |              |
+| Ε ε    | Epsilon |              |
+| Ζ ζ    | Zeta    |              |
+| Η η    | Eta     |              |
+| Θ θ    | Theta   |              |
+| Ι ι    | Iota    |              |
+| Κ κ    | Kappa   |              |
+| Λ λ    | Lambda  |              |
+| Μ μ    | Mu      |              |
+| Ν ν    | Nu      |              |
+| Ξ ξ    | Xi      |              |
+| Ο ο    | Omicron |              |
+| Π π    | Pi      |              |
+| Ρ ρ    | Rho     |              |
+| Σ σ/ς  | Sigma   |              |
+| Τ τ    | Tau     |              |
+| Υ υ    | Upsilon |              |
+| Φ φ    | Phi     |              |
+| Χ χ    | Chi     |              |
+| Ψ ψ    | Psi     |              |
+| Ω ω    | Omega   |              |
 
-#### Theta 
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\theta" title="\theta" /></a> (called "Theta") is sometimes for constants, special variables, or [polar angles](https://en.wikipedia.org/wiki/Spherical_coordinate_system). 
-
-A place you will definitely see theta used is in trigonometric equations like <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;cos(\theta)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;cos(\theta)" title="cos(\theta)" /></a>, <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;sin(\theta)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;sin(\theta)" title="sin(\theta)" /></a>, and <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;tan(\theta)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;tan(\theta)" title="tan(\theta)" /></a>. 
 
 ### Naming Variables in Kotlin 
 
@@ -136,6 +156,7 @@ val result = sin(theta)
 ```
 
 Hopefully you will not run into this decision of naming variables often, as you may express variables as iterated elements in collections/sequences rather than give each one an explicit variable name. 
+
 
 
 # Elements and Sets 
