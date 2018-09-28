@@ -116,7 +116,7 @@ A place you will definitely see theta used is in trigonometric equations like <a
 
 ### Naming Variables in Kotlin 
 
-Trying to express subscripted variables like <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;x_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;x_1" title="x_1" /></a> and <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;x_{old}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;x_{old}" title="x_{old}" /></a> can be a little awkward in code. In Kotlin, you can choose to stick with conventional camelCase or break style guidelines by using underscores. 
+Trying to express variables like <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;x_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;x_1" title="x_1" /></a> and <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;x_{old}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;x_{old}" title="x_{old}" /></a> can be a little awkward in code. In Kotlin, you can choose to stick with conventional camelCase or break style guidelines by using underscores. 
 
 ```kotlin
 val x1 = 12
@@ -125,8 +125,17 @@ val x_1 = 12
 val xOld = 13
 val x_old = 13
 ```
+For mathematical symbols like theta <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\theta" title="\theta" /></a>, you can try nami g your variable `theta`. 
 
-Hopefully you will not run into this decision often, as you may express variables as iterated elements in collections/sequences rather than give each one an explicit variable name. 
+```kotlin 
+import kotlin.math.PI
+import kotlin.math.sin 
+
+val theta = PI / 2.0
+val result = sin(theta)
+```
+
+Hopefully you will not run into this decision of naming variables often, as you may express variables as iterated elements in collections/sequences rather than give each one an explicit variable name. 
 
 
 # Elements and Sets 
