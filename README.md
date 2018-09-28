@@ -72,7 +72,7 @@ In summary, beware of 0-index and 1-index conventions, and discern what the math
 
 # Variables 
 
-Hopefully the concept of a variable (such as `x`) should be self-explanatory to a programmer. However, in mathematical notation it is common for subscripts to distinctly describe several instances of that variable. For instance, we can use `old` and `new` `x` values to measure a rate of change.
+Hopefully the concept of a variable (such as `x`) should be self-explanatory to a programmer. However, in mathematical notation it is common for subscripts and other "decorators" to distinctly describe several instances of that variable. For instance, we can use `old` and `new` `x` values to measure a rate of change.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=change&space;=&space;\frac{x_{new}&space;-&space;x_{old}}{x_{old}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?change&space;=&space;\frac{x_{new}&space;-&space;x_{old}}{x_{old}}" title="change = \frac{x_{new} - x_{old}}{x_{old}}" /></a>
 
