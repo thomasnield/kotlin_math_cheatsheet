@@ -115,7 +115,7 @@ The Greek alphabet can be used as variable names as well, and there is little co
 | Ε         | ε         | Epsilon |              |
 | Ζ         | ζ         | Zeta    |              |
 | Η         | η         | Eta     |              |
-| Θ         | θ         | Theta   |              |
+| Θ         | θ         | Theta   |Geometric angles, trigonometric variables, [...](https://en.wikipedia.org/wiki/Theta#Mathematics_and_science)|
 | Ι         | ι         | Iota    |              |
 | Κ         | κ         | Kappa   |              |
 | Λ         | λ         | Lambda  |              |
