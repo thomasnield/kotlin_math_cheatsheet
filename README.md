@@ -102,7 +102,7 @@ To maximize fanciness, we can go a step further and use a summation operator and
 
 
 
-#### Greek Letters
+### Greek Letters
 
 The Greek alphabet can be used as variable names as well, and there is little consistency on how they are used and for what. However, there are some common usages for certains symbols as documented in this table. 
 
