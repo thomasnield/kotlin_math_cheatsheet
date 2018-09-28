@@ -106,32 +106,32 @@ To maximize fanciness, we can go a step further and use a summation operator and
 
 The Greek alphabet can be used as variable names as well, and there is little consistency on how they are used and for what. However, there are some common usages for certains symbols as documented in this table. 
 
-| Letter | Name    | Common Usage |
-|--------|---------|--------------|
-| Α α    | Alpha   |              |
-| Β β    | Beta    |              |
-| Γ γ    | Gamma   |              |
-| Δ δ    | Delta   |              |
-| Ε ε    | Epsilon |              |
-| Ζ ζ    | Zeta    |              |
-| Η η    | Eta     |              |
-| Θ θ    | Theta   |              |
-| Ι ι    | Iota    |              |
-| Κ κ    | Kappa   |              |
-| Λ λ    | Lambda  |              |
-| Μ μ    | Mu      |              |
-| Ν ν    | Nu      |              |
-| Ξ ξ    | Xi      |              |
-| Ο ο    | Omicron |              |
-| Π π    | Pi      |              |
-| Ρ ρ    | Rho     |              |
-| Σ σ/ς  | Sigma   |              |
-| Τ τ    | Tau     |              |
-| Υ υ    | Upsilon |              |
-| Φ φ    | Phi     |              |
-| Χ χ    | Chi     |              |
-| Ψ ψ    | Psi     |              |
-| Ω ω    | Omega   |              |
+| Uppercase | Lowercase | Name    | Common Usage |
+|-----------|-----------|---------|--------------|
+| Α         | α         | Alpha   |              |
+| Β         | β         | Beta    |              |
+| Γ         | γ         | Gamma   |              |
+| Δ         | δ         | Delta   |              |
+| Ε         | ε         | Epsilon |              |
+| Ζ         | ζ         | Zeta    |              |
+| Η         | η         | Eta     |              |
+| Θ         | θ         | Theta   |              |
+| Ι         | ι         | Iota    |              |
+| Κ         | κ         | Kappa   |              |
+| Λ         | λ         | Lambda  |              |
+| Μ         | μ         | Mu      |              |
+| Ν         | ν         | Nu      |              |
+| Ξ         | ξ         | Xi      |              |
+| Ο         | ο         | Omicron |              |
+| Π         | π         | Pi      |              |
+| Ρ         | ρ         | Rho     |              |
+| Σ         | σ/ς       | Sigma   |              |
+| Τ         | τ         | Tau     |              |
+| Υ         | υ         | Upsilon |              |
+| Φ         | φ         | Phi     |              |
+| Χ         | χ         | Chi     |              |
+| Ψ         | ψ         | Psi     |              |
+| Ω         | ω         | Omega   |              |
 
 
 ### Naming Variables in Kotlin 
