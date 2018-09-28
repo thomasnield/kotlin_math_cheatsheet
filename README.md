@@ -15,7 +15,7 @@ While you are here, please rally this [issue on Dokka](https://github.com/Kotlin
 
 Think of mathematical notation as a form of pseudocode. It is often expressing an algorithm in declarative form. It is important to note however that these mathematical symbols existed well before computers, and therefore may not be expressed in a programming-friendly way (e.g. using 1-based indexing versus 0-based indexing). Like pseudocode, the author can take liberties in defining what symbols mean, and any symbol can mean different things depending on the context. 
 
-As a programmer, learning to interpret mathematical notation will help you navigate academic papers and blogs that apply mathematical concepts. This is especially the case when you dabble in machine learning, mathematical modeling, and data science. 
+As a programmer, learning to interpret mathematical notation will help you navigate academic papers and blogs that apply mathematical concepts. This is especially the case when you dabble in machine learning, mathematical optimization, and data science. 
 
 # Summation and Multiplication
 
