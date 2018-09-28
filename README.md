@@ -111,7 +111,7 @@ The Greek alphabet can be used as variable names as well, and there is little co
 | Α         | α         | Alpha   |              |
 | Β         | β         | Beta    |              |
 | Γ         | γ         | Gamma   |              |
-| Δ         | δ         | Delta   |              |
+| Δ         | δ         | Delta   |Measurement of change or difference... [Read More](https://en.wikipedia.org/wiki/Delta_(letter)#Upper_case)|
 | Ε         | ε         | Epsilon |              |
 | Ζ         | ζ         | Zeta    |              |
 | Η         | η         | Eta     |              |
