@@ -108,7 +108,7 @@ To maximize fanciness, we can go a step further and use a summation operator and
 The Greek alphabet can be used as variable names as well, and there is little consistency on how they are used and for what. For instance, 
 
 
-#### <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\theta" title="\theta" /></a> Theta 
+#### Theta 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\theta" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\theta" title="\theta" /></a> (called "Theta") is sometimes for constants, special variables, or [polar angles](https://en.wikipedia.org/wiki/Spherical_coordinate_system). 
 
