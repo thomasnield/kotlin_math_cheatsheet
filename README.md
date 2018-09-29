@@ -198,7 +198,7 @@ TODO
 
 # Calculus
 
-Calculus is the study of _change_ in mathematics, studying rates of change and how a change in variable affects another variable. 
+Calculus is the study of _change_ in mathematics, studying rates of change and how a change in one variable affects another variable. 
 
 Here's a fun thought experiment: when you read the speedometer of a moving car, you may read it as 45 km/hour. But think about  how the car's onboard system calculates that for a moment. At a given instant, or a _paused_ moment in time, can the car actually calculate its speed? Or does it actually need to sample a distance (10 cm? 1 cm? .001 cm?) between two points and record the time it took? The car needs to travel _some_ distance to calculate its speed, and that sampled distance can theoretically be as small as you want. It can approach 0 as long as it never touches 0. Watch this [video by 3Blue1Brown to see this concept in detail](https://youtu.be/9vKqVkMQHKk). 
 
