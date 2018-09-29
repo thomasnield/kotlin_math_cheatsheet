@@ -202,9 +202,7 @@ Calculus is the study of _change_ in mathematics, studying rates of change and h
 
 Here's a fun thought experiment: when you read the speedometer of a moving car, you may read it as 45 km/hour. But think about  how the car's onboard system calculates that for a moment. At a given instant, or a _paused_ moment in time, can the car actually calculate its speed? Or does it actually need to sample a distance (10 cm? 1 cm? .001 cm?) between two points and record the time it took? The car needs to travel _some_ distance to calculate its speed, and that sampled distance can theoretically be as small as you want. It can approach 0 as long as it never touches 0. 
 
-<a href="https://www.youtube.com/embed/9vKqVkMQHKk"" target="_blank">
-<img src="https://i.ytimg.com/vi/9vKqVkMQHKk/hqdefault.jpg"/>
-</a>
+<a href="https://www.youtube.com/embed/9vKqVkMQHKk"" target="_blank"><img src="https://i.ytimg.com/vi/9vKqVkMQHKk/hqdefault.jpg"/></a>
 
 
 Rates of change and deriving functions that calculate the rate of change is the core of calculus. It is useful in machine learning and optimization because when you are trying to minimize error, the rate error is increasing/decreasing can help your algorithm find the right direction. 
