@@ -177,7 +177,7 @@ TODO
 
 Linear algebra is the building block of machine learning, computer graphics, linear programming, and many other mathematically-intense computer science disciplines. Linear algebra can seem pointless until you apply it to specific problems. For example, a neural network is typically executed using dot products to multiply and sum weights and node values. 
 
-Linear algebra takes the tediousness out of working with large multidimensional arrays of numbers. While you can certainly iterate these numbers yourself and perform whatever calculation you need, it can become extremely inefficient and tedious to do yourself. 
+Linear algebra takes the tediousness out of working with large multidimensional arrays of numbers and manipulating them with transformations. While you can certainly iterate these numbers yourself and perform whatever calculation you need, it can become extremely inefficient and cumbersome to do yourself. 
 
 There are great libraries that can do this for you. In the Python world you would typically use [NumPy](http://www.numpy.org/). In the JVM world, you can use [ND4J](http://nd4j.org/), [ojAlgo](https://github.com/optimatika/ojAlgo), or [JBlas](http://jblas.org/). The Kotlin multiplatform library [Koma](https://github.com/kyonifer/koma) will probably be your go-to if you intend on doing linear algebra in Kotlin. 
 
@@ -194,3 +194,25 @@ TODO
 ### Matrix Operators
 
 TODO
+
+
+# Calculus
+
+Calculus is the study of _change_ in mathematics, studying rates of change and how a change in variable affects another variable. 
+
+Here's a fun thought experiment: when you read the speedometer of a moving car, you may read it as 45 km/hour. But think about  how the car's onboard system calculates that for a moment. At a given instant, or a _paused_ moment in time, can the car actually calculate its speed? Or does it actually need to sample a distance (10 cm? 1 cm? .001 cm?) between two points and record the time it took? The car needs to travel _some_ distance to calculate its speed, and that sampled distance can theoretically be as small as you want. It can approach 0 as long as it never touches 0. 
+
+![](https://youtu.be/9vKqVkMQHKk)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9vKqVkMQHKk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Rates of change and deriving functions that calculate the rate of change is the core of calculus. It is useful in machine learning and optimization because when you are trying to minimize error, the rate error is increasing/decreasing can help your algorithm find the right direction. 
+
+
+
+### Derivatives
+
+### Partial Derivatives
+
+### Integrals
+
