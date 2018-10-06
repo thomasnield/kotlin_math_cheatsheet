@@ -104,14 +104,14 @@ To maximize fanciness, we can go a step further and use a summation operator and
 
 ### Greek Letters
 
-The Greek alphabet can be used as variable names as well, and there is little consistency on how they are used and for what. However, there are some common usages for certains symbols as documented in this table. 
+The Greek alphabet can be used as variables (and sometimes operators) as well. There is little consistency on how they are used and for what. However, there are some common usages for certains symbols as documented in this table. 
 
 | Uppercase | Lowercase | Name    | Common Usage |
 |-----------|-----------|---------|--------------|
 | Α         | α         | Alpha   |              |
 | Β         | β         | Beta    |              |
 | Γ         | γ         | Gamma   |              |
-| Δ         | δ         | Delta   |Measurement of change or difference... [Read More](https://en.wikipedia.org/wiki/Delta_(letter)#Upper_case)|
+| Δ         | δ         | Delta   |Measurement of change or difference, derivative... [Read More](https://en.wikipedia.org/wiki/Delta_(letter)#Upper_case)|
 | Ε         | ε         | Epsilon |              |
 | Ζ         | ζ         | Zeta    |              |
 | Η         | η         | Eta     |              |
@@ -125,7 +125,7 @@ The Greek alphabet can be used as variable names as well, and there is little co
 | Ο         | ο         | Omicron |              |
 | Π         | π         | Pi      |              |
 | Ρ         | ρ         | Rho     |              |
-| Σ         | σ/ς       | Sigma   |Uppercase usually used for summation, lowercase often used for standard deviation... [Read More](https://en.wikipedia.org/wiki/Sigma#Science_and_mathematics)|
+| Σ         | σ/ς       | Sigma   |Summation, standard deviation... [Read More](https://en.wikipedia.org/wiki/Sigma#Science_and_mathematics)|
 | Τ         | τ         | Tau     |              |
 | Υ         | υ         | Upsilon |              |
 | Φ         | φ         | Phi     |              |
