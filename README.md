@@ -125,7 +125,7 @@ The Greek alphabet can be used as variable names as well, and there is little co
 | Ο         | ο         | Omicron |              |
 | Π         | π         | Pi      |              |
 | Ρ         | ρ         | Rho     |              |
-| Σ         | σ/ς       | Sigma   |              |
+| Σ         | σ/ς       | Sigma   |Uppercase usually used for summation, lowercase often used for standard deviation... [Read More](https://en.wikipedia.org/wiki/Sigma#Science_and_mathematics)|
 | Τ         | τ         | Tau     |              |
 | Υ         | υ         | Upsilon |              |
 | Φ         | φ         | Phi     |              |
