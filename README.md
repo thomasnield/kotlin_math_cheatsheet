@@ -207,6 +207,10 @@ Rates of change and deriving functions that calculate rate of change is the core
 
 ### Derivatives
 
+The name of the game in programming with math is often modeling things as functions, such as <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;f(x)&space;=&space;3x&space;&plus;&space;10" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;f(x)&space;=&space;3x&space;&plus;&space;10" title="f(x) = 3x + 10" /></a>. You can be trying to fit data to a linear function <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;y&space;=&space;mx&space;&plus;&space;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;y&space;=&space;mx&space;&plus;&space;b" title="y = mx + b" /></a>, or minimizing a function measuring error in a neural network. 
+
+However, when dealing with nonlinear functions (which represent a curvy line or plane, not a straight or flat one), we are often interested in finding the lowest or highest point for optimization reasons. Knowing the slope at a given point on that line or plane can help you follow the steepest direction and find that minimum or maximum. 
+
 ### Partial Derivatives
 
 ### Integrals
