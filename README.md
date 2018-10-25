@@ -198,16 +198,16 @@ TODO
 
 # Calculus
 
-Calculus is the study of _change_ in mathematics, studying rates of change and how a change in one variable affects another variable. 
-
-Here's a fun thought experiment: when you read the speedometer of a moving car, you may read it as 45 km/hour. But think about  how the car system calculates that. At a given instant, or a _paused_ moment in time, can the car actually calculate its speed? Or does it actually need to sample a distance (10 cm? 1 cm? .001 cm?) between two points and record how much time it took? The car needs to travel _some_ distance to calculate its speed, and that sampled distance can theoretically be as small as you want. It can approach 0 as long as it never touches 0. Watch this [video by 3Blue1Brown to see this thought experiment in detail](https://youtu.be/9vKqVkMQHKk). 
+Calculus is the study of _change_ in mathematics, studying rates of change and how a change in one variable affects another variable.
 
 Rates of change and deriving functions that calculate rate of change is the core of calculus. It is useful in machine learning and optimization, so unsurprisingly calculus has been getting a lot of interest outside of academia. When you are trying to minimize error in your machine learning algorithm, you have to increase or decrease parameters to minimize the error. Rather than hopelessly trying every possible combination of parameters to find the lowest resulting error, it can be much more efficient to leverage rate of change in error. With that rate, you can determine if a given point is increasing/decreasing in error and use that as your compass. Then you know which direction to tune your parameters. 
+
+ [3Blue1Brown has a fun YouTube series on Calculus fundamentals](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr).
 
 
 ### Derivatives
 
-The name of the game in programming with math is often modeling things as functions, such as <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;f(x)&space;=&space;3x&space;&plus;&space;10" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;f(x)&space;=&space;3x&space;&plus;&space;10" title="f(x) = 3x + 10" /></a>. You can be trying to fit data to a linear function <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;y&space;=&space;mx&space;&plus;&space;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;y&space;=&space;mx&space;&plus;&space;b" title="y = mx + b" /></a>, or minimizing a function measuring error in a neural network. 
+Programming with math often models things as functions, such as <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;f(x)&space;=&space;3x&space;&plus;&space;10" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;f(x)&space;=&space;3x&space;&plus;&space;10" title="f(x) = 3x + 10" /></a>. You can be trying to fit data to a linear function <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;y&space;=&space;mx&space;&plus;&space;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;y&space;=&space;mx&space;&plus;&space;b" title="y = mx + b" /></a>, or minimizing a function measuring error in a neural network. 
 
 However, when dealing with nonlinear functions (which represent a curvy line or plane, not a straight or flat one), we are often interested in finding the lowest or highest point for optimization reasons. Knowing the slope at a given point on that line or plane can help you follow the steepest direction and find that minimum or maximum. 
 
