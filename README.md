@@ -248,13 +248,57 @@ val personalAttributes = rowVectorOf(71.5, 181.3)
 
 So why do we express things in terms of vectors rather than classes with properties? When it comes to heavy number-crunching (e.g. machine learning), raw numbers are far more efficient and standardized to compute with. Typically, vectors and matrices (covered next) are binded to a C library that can iteratively do math efficiently. 
 
+#### Vector Math
+
+Adding/multipliying a vector with a scalar simply results in a vector with each value added/multiplied respectively by that scalar. 
+
+```kotlin
+val populations = rowVectorOf(2310, 2387, 5732)
+val growthRate = 1.01
+
+val newPopulations = populations * growthRate
+
+println(newPopulations) // mat[ 2333.10,  2410.87,  5789.32 ]
+```
+
+If the dimenstions match, you can sum each respective element together (kind of like zipping) between two vectors using a `+` operator: 
+
+```kotlin
+val adultPopulations = rowVectorOf(2323, 5672, 2345)
+val childPopulations = rowVectorOf(1632, 1252, 1658)
+
+val totalPopulations = adultPopulations + childPopulations
+
+println(totalPopulations) // mat[ 3955.00,  6924.00,  4003.00 ]
+```
+
+However using a multiplication operator `*` will not work like you probably expect. It does not zip and multiply respective elements together. This performs a dot product (which we will cover later) and throws an error if you try to do element-wise multiplication:
+
+```kotlin 
+val populations = rowVectorOf(2310, 2387, 5732)
+val growthRates = rowVectorOf(1.03, 1.06, 1.09)
+
+val newPopulations = populations * growthRates // ERROR! #columns != #rows
+
+println(newPopulations)
+```
+
+If you want to zip and multipy each element respectively, use the `elementTimes()` operator. 
+
+```kotlin 
+val populations = rowVectorOf(2310, 2387, 5732)
+val growthRates = rowVectorOf(1.03, 1.06, 1.09)
+
+val newPopulations = populations.elementTimes(growthRates)
+
+println(newPopulations)
+```
+
 ### Matrices
 
 TODO
 
-### Matrix Operators
-
-TODO
+### Dot Products 
 
 
 # Calculus
