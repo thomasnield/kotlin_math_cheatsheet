@@ -181,13 +181,13 @@ Linear algebra takes the tediousness out of working with large multidimensional 
 
 There are great libraries that can do this for you. In the Python world you would typically use [NumPy](http://www.numpy.org/). In the JVM world, you can use [ND4J](http://nd4j.org/), [ojAlgo](https://github.com/optimatika/ojAlgo), or [JBlas](http://jblas.org/). The Kotlin multiplatform library [Koma](https://github.com/kyonifer/koma) will probably be your go-to if you intend on doing linear algebra in Kotlin. 
 
-> If you want to learn more about Linear Algebra, [3Blue1Brown](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) has a great video series on linear algebra on YouTube. 
+If you want to learn more about Linear Algebra, [3Blue1Brown](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) has a great video series on linear algebra on YouTube. 
 
 ### Scalars
 
-A scalar is simply a single number (as opposed to an array of numbers which is called a vector). Declaring a scalar value in Kotlin is basically declaring a numeric variable, such as an `Int` or `Double`.
+A scalar is simply a single number (as opposed to an array of numbers which is called a vector). Declaring a scalar value in Kotlin is no different than declaring a numeric variable, such as an `Int` or `Double`.
 
-In linear algebra, scalars are often used in the context of multiplication.
+In linear algebra, scalars are often used in the context of multiplication (hence the name _scalar_, because they _scale_ things). 
 
 ```kotlin 
 // all these assignments are scalars
@@ -201,7 +201,7 @@ val newSpeed = oldSpeed * increaseRate
 
 ### Vectors
 
-In strict programming terms, a vector is an array of numeric values often representing values of different variables.
+In strict programming terms, a vector is an array of numeric values often representing values of different variables. 
 
 ```kotlin
 // kotlin-stdlib
