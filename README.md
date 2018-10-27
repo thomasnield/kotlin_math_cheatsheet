@@ -272,7 +272,7 @@ val totalPopulations = adultPopulations + childPopulations
 println(totalPopulations) // mat[ 3955.00,  6924.00,  4003.00 ]
 ```
 
-However using a multiplication operator `*` will not work like you probably expect. It does not zip and multiply respective elements together. This performs a dot product (which we will cover later) and throws an error if you try to do element-wise multiplication:
+However using a multiplication operator `*` with two vectors will not work like you probably expect. It does not zip and multiply respective elements together, but rather performs a dot product (which we will cover later). If we multiply two vectors of the same length, it throws an error:
 
 ```kotlin 
 val populations = rowVectorOf(2310, 2387, 5732)
