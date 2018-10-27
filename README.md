@@ -181,11 +181,72 @@ Linear algebra takes the tediousness out of working with large multidimensional 
 
 There are great libraries that can do this for you. In the Python world you would typically use [NumPy](http://www.numpy.org/). In the JVM world, you can use [ND4J](http://nd4j.org/), [ojAlgo](https://github.com/optimatika/ojAlgo), or [JBlas](http://jblas.org/). The Kotlin multiplatform library [Koma](https://github.com/kyonifer/koma) will probably be your go-to if you intend on doing linear algebra in Kotlin. 
 
-> If you want to learn more, [3Blue1Brown](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) has a great video series on linear algebra on YouTube. 
+> If you want to learn more about Linear Algebra, [3Blue1Brown](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) has a great video series on linear algebra on YouTube. 
+
+### Scalars
+
+A scalar is simply a single number (as opposed to an array of numbers which is called a vector). Declaring a scalar value in Kotlin is basically declaring a numeric variable, such as an `Int` or `Double`.
+
+In linear algebra, scalars are often used in the context of multiplication.
+
+```kotlin 
+// all these assignments are scalars
+val increaseRate = 1.04
+
+val oldSpeed = 60.0
+
+val newSpeed = oldSpeed * increaseRate
+```
+
 
 ### Vectors
 
-TODO
+In strict programming terms, a vector is an array of numeric values often representing values of different variables.
+
+```kotlin
+// kotlin-stdlib
+val myVector = doubleArrayOf(1.0, 5.2, 2.4)
+
+//koma 
+val myVector = rowVectorOf(1.0, 5.2, 2.4)
+```
+
+By _variables_, we may be talking about _observations_. For instance, we can have a vector of temperatures for a given week.  
+
+```kotlin
+// kotlin-stdlib
+val lowTemperatures = intArrayOf(67, 62, 71, 73, 64, 66, 64)
+val highTemperatures = intArrayOf(76, 74, 77, 75, 76, 73, 72)
+
+// koma
+val lowTemperatures = rowVectorOf(67, 62, 71, 73, 64, 66, 64)
+val highTemperatures = rowVectorOf(76, 74, 77, 75, 76, 73, 72)
+```
+
+We can also represent different attribributes of an item with a vector. For example, we can express a color in terms of three RGB values. 
+
+```kotlin
+
+// kotlin-stdlib
+val pinkColor = intArrayOf(255, 175, 175)
+
+// koma
+val pinkColor = rowVectorOf(255, 175, 175)
+```
+
+We can also express different attributes of a `Person`: 
+
+```kotlin
+// height and weight of a person
+
+// kotlin-stdlib
+val personalAttributes = doubleArrayOf(71.5, 181.3)
+
+// koma
+val personalAttributes = rowVectorOf(71.5, 181.3)
+```
+
+So why do we express things in terms of vectors rather than classes with properties? When it comes to heavy number-crunching (e.g. machine learning), raw numbers are far more efficient and standardized to compute with. Typically, vectors and matrices (covered next) are binded to a C library that can iteratively do math efficiently. 
 
 ### Matrices
 
