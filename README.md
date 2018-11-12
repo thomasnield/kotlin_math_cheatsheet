@@ -100,7 +100,19 @@ To maximize fanciness, we can go a step further and use a summation operator and
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=x_{average}&space;=&space;\frac{1}{n}\sum_{i=1}^{n}x_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_{average}&space;=&space;\frac{1}{n}\sum_{i=1}^{n}x_i" title="x_{average} = \frac{1}{n}\sum_{i=1}^{n}x_i" /></a>
 
+### Decorators
 
+Sometimes a variable can have "decorators" to distinguish what that variable is doing. 
+
+#### "Hat" Symbol
+
+The hat symbol, such as <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\hat&space;x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\hat&space;x" title="\hat x" /></a>, is often used to indicate a predicted value as opposed to an actual. This is often in the context of prediction and forecasting a number. 
+
+You could simply express a predicted and actual value as <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;x_{predicted}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;x_{predicted}" title="x_{predicted}" /></a> and <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;x_{actual}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;x_{actual}" title="x_{actual}" /></a>, but it can be much more concise to use a `^` symbol. 
+
+For example, say we predict selling <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\hat&space;x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\hat&space;x" title="\hat x" /></a> products, but in actuality we sell <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;x" title="x" /></a>. Our forecast error would be the difference between these two variables. 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\text{Forecast&space;Error}&space;=&space;\hat&space;x&space;-&space;x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\text{Forecast&space;Error}&space;=&space;\hat&space;x&space;-&space;x" title="\text{Forecast Error} = \hat x - x" /></a>
 
 ### Greek Letters
 
