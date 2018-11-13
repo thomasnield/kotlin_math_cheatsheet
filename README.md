@@ -42,7 +42,7 @@ When you see more than one summation, this means they are nested summations. Thi
 <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{10}&space;\sum_{j=4}^{20}&space;2ij" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{10}&space;\sum_{j=4}^{20}&space;2ij" title="\sum_{i=1}^{10} \sum_{j=4}^{20} 2ij" /></a>
 
 ```kotlin
-(1..4).flatMap { i -> (4..20).map { j -> 2 *i * j } }.sum()
+(1..10).flatMap { i -> (4..20).map { j -> 2 *i * j } }.sum()
 ```
 
 
