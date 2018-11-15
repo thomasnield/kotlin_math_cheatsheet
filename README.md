@@ -169,9 +169,22 @@ Hopefully you will not run into this decision of naming variables often, as you 
 
 
 
-# Elements and Sets 
+# Elements, Sets, and Ranges 
 
-TODO
+## Sets
+
+### Common Number Sets
+
+#### Real Numbers
+
+#### Rational Numbers
+
+#### Integers 
+
+#### Natural Numbers 
+
+## Ranges
+
 
 # Functions
 
