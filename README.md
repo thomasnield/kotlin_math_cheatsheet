@@ -198,7 +198,7 @@ Hopefully you will not run into this decision of naming variables often, as you 
 
 # Linear Algebra
 
-Linear algebra is the building block of machine learning, computer graphics, linear programming, and many other mathematically-intense computer science disciplines. Linear algebra can seem pointless until you apply it to specific problems. For example, a neural network is typically executed using dot products to multiply and sum weights and node values. 
+Linear algebra is the building block of machine learning, computer graphics, linear programming, and many other mathematically-intense computer science disciplines. Linear algebra can seem pointless until you apply it to specific problems. For example, [a neural network](https://github.com/thomasnield/kotlin_simple_neural_network) is typically executed using dot products to multiply and sum weights and node values. 
 
 Linear algebra takes the tediousness out of working with large multidimensional arrays of numbers and manipulating them with transformations. While you can certainly iterate these numbers yourself and perform whatever calculation you need, it can become extremely inefficient and cumbersome to do yourself. 
 
